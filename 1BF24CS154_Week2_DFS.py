@@ -58,16 +58,16 @@ def print_puzzle(state):
 
 # Initial state
 start = (
-    1, 2, 3,
-    4, 0, 6,
-    7, 5, 8
+    2, 8, 3,
+    1, 6, 4,
+    7, 0, 5
 )
 
 # Goal state
 goal = (
     1, 2, 3,
-    4, 5, 6,
-    7, 8, 0
+    8, 0, 4,
+    7, 6, 5
 )
 
 solution = dfs(start, goal)
